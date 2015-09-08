@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Cryptosquare</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cryptosquare</h1>
+      <h3>Enter a string and see the phrase encrypted!</h3>
+
+      <form id="cryptosquare_form">
+        <div class="form-group">
+          <label for="input_string">Enter the phrase:</label>
+          <input id="input_string" type="text">
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="result">
+        <p>"<span class="input_string"></span>" encrypted is:</p>
+        <p><span class="encrypted"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
